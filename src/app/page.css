@@ -1,0 +1,67 @@
+.home {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: blue;
+    gap: 10px;
+    padding: 10px;
+}
+.toggle-switch {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.base-input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.unit-toggle {
+    margin-bottom: 20px;
+}
+  
+.current-weather-box,
+.selected-day-weather {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+  
+.next-day-weather-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.next-day-weather-box div {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+  
+.next-day-component {
+    display: flex;
+}
